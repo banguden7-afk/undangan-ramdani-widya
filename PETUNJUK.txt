@@ -2,9 +2,9 @@ UNDANGAN RAMDANI & WIDYA — CONTOH
 
 Paket ini berisi:
 - index.html: halaman website undangan
-- assets/foto-1.jpeg sampai foto-3.jpeg: foto prewedding
-- assets/video-prewedding.mp4: video prewedding
-- assets/musik.wav: musik instrumental orisinal sederhana untuk contoh
+- foto-1.jpeg sampai foto-3.jpeg: foto prewedding
+- video-prewedding.mp4: video prewedding
+- musik.wav: musik instrumental orisinal sederhana untuk contoh
 
 Detail contoh:
 - Nama: Ramdani & Widya Sofriani Putri
