@@ -1,0 +1,17 @@
+UNDANGAN RAMDANI & WIDYA — CONTOH
+
+Paket ini berisi:
+- index.html: halaman website undangan
+- assets/foto-1.jpeg sampai foto-3.jpeg: foto prewedding
+- assets/video-prewedding.mp4: video prewedding
+- assets/musik.wav: musik instrumental orisinal sederhana untuk contoh
+
+Detail contoh:
+- Nama: Ramdani & Widya Sofriani Putri
+- Tanggal: 27 Maret 2027
+- Lokasi: Melayu Berdendang, Tanjung Uban, Bintan Utara
+
+Catatan:
+- Jam acara belum dicantumkan karena belum diberikan.
+- Musik mulai setelah tombol "Buka Undangan" ditekan, mengikuti pembatasan autoplay browser.
+- Paket ini belum menjadi link publik. Unggah seluruh isi folder ke hosting statis untuk membagikannya.

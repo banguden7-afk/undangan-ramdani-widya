@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#111"><title>Ramdani & Widya | Wedding Invitation</title>
+<style>
+:root{--gold:#c5a66b;--ink:#171613;--ivory:#f8f6f1}*{box-sizing:border-box}
+html{scroll-behavior:smooth}body{margin:0;background:var(--ivory);color:var(--ink);font-family:Georgia,serif}
+.cover{min-height:100svh;display:grid;place-items:center;text-align:center;padding:28px 20px;color:white;
+background:linear-gradient(180deg,rgba(0,0,0,.24),rgba(0,0,0,.72)),url('assets/foto-3.jpeg') center 42%/cover no-repeat}
+.cover-inner{width:min(100%,560px);padding:30px 18px}.eyebrow,.kicker{font:10px Arial,sans-serif;letter-spacing:4px;text-transform:uppercase;color:var(--gold)}
+h1{font-size:clamp(48px,10vw,82px);font-weight:400;line-height:1.02;margin:22px 0}
+.amp{color:var(--gold);font-style:italic}.date{font:12px Arial,sans-serif;letter-spacing:4px}
+button,.btn{display:inline-block;border:1px solid var(--gold);background:var(--gold);color:#171613;padding:14px 24px;
+font:11px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;text-decoration:none;cursor:pointer}
+.cover button{margin-top:28px}main{display:none}section{padding:76px 20px;text-align:center}.inner{max-width:850px;margin:auto}
+h2{font-size:clamp(30px,6vw,46px);font-weight:400;margin:15px 0 22px}p{font-size:15px;line-height:1.9;color:#625f58}
+.rule{width:54px;height:1px;background:var(--gold);margin:26px auto}.names{font-size:clamp(28px,6vw,42px);margin:25px 0}
+.dark{background:#171613;color:#fff}.dark p{color:#cbc6bb}.dark h2{color:white}
+.wedding-video{display:block;width:100%;max-height:620px;margin:28px auto;background:#000}.photo-feature{width:100%;max-height:580px;object-fit:cover;object-position:center 38%;margin:28px 0}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px}
+.grid img{width:100%;height:360px;object-fit:cover}.grid img:first-child{grid-column:span 2;height:440px}
+.events{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:30px 0}
+.event{border:1px solid #d8c9aa;padding:28px 16px}.event h3{font-weight:400;font-size:23px;margin:12px 0}
+.map{width:100%;height:300px;border:0;margin:24px 0}.music{position:fixed;right:16px;bottom:16px;border-radius:50%;width:48px;height:48px;padding:0;z-index:5}
+footer{background:#111;color:#c9b990;text-align:center;padding:34px 15px;font-size:13px}
+@media(max-width:560px){section{padding:60px 18px}.grid img{height:220px}.grid img:first-child{height:300px}}
+</style></head>
+<body>
+<div class="cover" id="cover"><div class="cover-inner">
+<div class="eyebrow">The Wedding Of</div><h1>Ramdani<br><span class="amp">&</span><br>Widya</h1>
+<div class="date">27 MARET 2027</div><p style="color:#fff">Kepada Yth. Bapak/Ibu/Saudara/i</p>
+<button onclick="openInvite()">Buka Undangan</button></div></div>
+<main id="content">
+<section><div class="inner"><div class="kicker">Assalamu’alaikum Warahmatullahi Wabarakatuh</div>
+<h2>Dengan memohon rahmat dan ridha Allah SWT</h2>
+<p>Dengan penuh rasa syukur, kami bermaksud menyelenggarakan pernikahan kami. Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu.</p>
+<div class="rule"></div><div class="names">Ramdani <span class="amp">&</span> Widya Sofriani Putri</div><p>27 Maret 2027</p></div></section>
+<section class="dark"><div class="inner"><div class="kicker">Our Moments</div><h2>Sebuah Kisah, Satu Tujuan</h2>
+<p>Dengan izin Allah, dua perjalanan dipertemukan untuk melangkah bersama.</p>
+<img class="photo-feature" src="assets/foto-2.jpeg" alt="Momen prewedding Ramdani dan Widya">
+<video class="wedding-video" controls playsinline preload="metadata">
+  <source src="assets/video-prewedding.mp4" type="video/mp4">
+  Browser Anda tidak mendukung pemutaran video.
+</video>
+</div></section>
+<section><div class="inner"><div class="kicker">Wedding Details</div><h2>Hari Bahagia Kami</h2>
+<div class="events"><div class="event"><div class="kicker">Tanggal</div><h3>Sabtu</h3><p>27 Maret 2027</p></div>
+<div class="event"><div class="kicker">Tempat</div><h3>Melayu Berdendang</h3><p>Tanjung Uban, Bintan Utara</p></div></div>
+<p>Jam acara dan alamat lengkap dapat ditambahkan setelah dikonfirmasi.</p>
+<iframe class="map" src="https://www.google.com/maps?q=Melayu%20Berdendang%2C%20Tanjung%20Uban%2C%20Bintan%20Utara&output=embed" loading="lazy"></iframe>
+<a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Melayu%20Berdendang%2C%20Tanjung%20Uban%2C%20Bintan%20Utara">Buka Google Maps</a>
+</div></section>
+<section class="dark"><div class="inner"><div class="kicker">Captured Moments</div><h2>Galeri Foto</h2>
+<p>Beberapa momen yang ingin kami bagikan bersama Anda.</p>
+<div class="grid"><img src="assets/foto-1.jpeg" alt="Foto prewedding 1"><img src="assets/foto-2.jpeg" alt="Foto prewedding 2"><img src="assets/foto-3.jpeg" alt="Foto prewedding 3"></div>
+</div></section>
+<section><div class="inner"><div class="kicker">Your Presence Is A Gift</div><h2>Doa & Restu</h2>
+<p>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p>
+<div class="names">Ramdani <span class="amp">&</span> Widya</div></div></section>
+</main>
+<audio id="music" loop><source src="assets/musik.wav" type="audio/wav"></audio>
+<button class="music" id="musicBtn" onclick="toggleMusic()" aria-label="Putar atau jeda musik" style="display:none">♫</button>
+<footer>Ramdani & Widya · 27 Maret 2027</footer>
+<script>
+const music=document.getElementById('music');
+function openInvite(){document.getElementById('cover').style.display='none';document.getElementById('content').style.display='block';document.getElementById('musicBtn').style.display='block';music.play().catch(()=>{});window.scrollTo(0,0)}
+function toggleMusic(){if(music.paused){music.play().catch(()=>{});document.getElementById('musicBtn').textContent='♫'}else{music.pause();document.getElementById('musicBtn').textContent='Ⅱ'}}
+</script></body></html>
